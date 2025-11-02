@@ -29,3 +29,20 @@ This project aims to uncover insights about emission trends, country-wise contri
 
 ## 📂 Project Structure
 
+```bash
+Microsoft-Carbon-Emission-Analytics/
+│
+├── data/
+│   └── co2_emission_by_country.csv
+│
+├── notebooks/
+│   ├── emission_analysis.ipynb
+│   └── emission_analysis-checkpoint.ipynb
+│
+├── scripts/
+│   └── data_visualization.py
+│
+├── venv/                  # Virtual environment (ignored in .gitignore)
+├── .gitignore
+├── README.md
+└── requirements.txt

@@ -1,21 +1,35 @@
-﻿# Ignore virtual environments
+# --- Python Virtual Environment ---
 venv/
+ENV/
 env/
+.venv/
 
-# Byte-compiled / cache files
+# --- Python Cache ---
 __pycache__/
 *.py[cod]
+*$py.class
 
-# Environment variables
-.env
-
-# Jupyter Notebook checkpoints
+# --- Jupyter Notebook Checkpoints ---
 .ipynb_checkpoints/
 
-# VS Code / PyCharm settings
+# --- System Files ---
+.DS_Store
+Thumbs.db
+
+# --- Logs ---
+*.log
+
+# --- IDE Files ---
 .vscode/
 .idea/
 
-# OS files
-.DS_Store
-Thumbs.db
+# --- Data Backup / Temp ---
+*.bak
+*.tmp
+
+# --- Environment / Secrets ---
+.env
+*.json
+
+# --- Other ---
+*.sqlite3

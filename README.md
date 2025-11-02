@@ -32,17 +32,11 @@ This project aims to uncover insights about emission trends, country-wise contri
 ```bash
 Microsoft-Carbon-Emission-Analytics/
 │
-├── data/
-│   └── co2_emission_by_country.csv
+├── data/                # Raw and processed datasets
+├── notebooks/           # Jupyter notebooks for analysis and model exploration
+├── visuals/             # Generated plots, charts, and dashboards
+├── reports/             # Final reports, presentations, or summary outputs
 │
-├── notebooks/
-│   ├── emission_analysis.ipynb
-│   └── emission_analysis-checkpoint.ipynb
-│
-├── scripts/
-│   └── data_visualization.py
-│
-├── venv/                  # Virtual environment (ignored in .gitignore)
-├── .gitignore
-├── README.md
-└── requirements.txt
+├── .gitignore           # Specifies files/folders to exclude from Git tracking
+├── README.md            # Project overview and documentation
+└── requirements.txt     # List of dependencies to recreate the environment

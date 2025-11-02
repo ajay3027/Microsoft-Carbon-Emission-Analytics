@@ -1,0 +1,24 @@
+# Core Libraries
+pandas
+numpy
+
+# Visualization
+matplotlib
+seaborn
+
+# Notebook Environment
+jupyter
+notebook
+
+# Machine Learning (optional for future trend prediction)
+scikit-learn
+
+# Date and Time Handling
+python-dateutil
+
+# Power BI Integration
+powerbiclient
+
+# Optional: Data cleaning and display improvements
+openpyxl
+tabulate
